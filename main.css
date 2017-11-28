@@ -2,5 +2,20 @@ body {
     font-family: monospace;
     background-color: black;
     color: greenyellow;
-    padding: 1%;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.year {
+    width: 400px;
+}
+
+.list-item-crossed {
+    text-decoration: line-through;
+    color: gray;
 }
