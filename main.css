@@ -32,3 +32,32 @@ h1 {
 .clearfix {
     clear: both;
 }
+
+/* ::::::::::::::::: CONTAINER ::::::::::::: */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.container-project {
+    width: 100px;
+    margin: 20px 10px;
+    padding: 10px;
+    background-color: rgb(27, 27, 27);
+    color: rgb(255, 251, 0);
+ 
+}
+
+h3 { 
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.link-project {
+    text-decoration: none;
+}
