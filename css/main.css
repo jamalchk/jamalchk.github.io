@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cousine;
+}
+
+.navigation h1 {
+    color: rgb(63, 63, 63);
+    margin: 20px;
+    text-align: center;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navigation-list__item {
+    margin: 10px;
+    padding: 20px;
+    color: rgb(82, 45, 126);
+    font-weight: bold;
+}
+
+.hero-section {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    background-color: lightseagreen;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.test {
+    text-align: center;
+    vertical-align: middle;
+}
