@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -50,4 +51,49 @@ p {
     text-align: center;
     max-width: 300px;
     margin: 0 auto;
+}
+
+/** GALLERY **/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.cell {
+    margin: 1rem;
+}
+
+.cell img {
+    display: block;
+}
+
+.responsive-image {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .cell {
+        max-width: 50%;
+        margin: 1rem;
+        width: calc(50% - 2rem);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .cell {
+        width: calc(33.3333% - 2rem);
+        margin: 1rem;
+    }
+}
+
+.padding {
+    margin: 24px;
 }
