@@ -16,6 +16,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Josefin Sans", sans-serif;
+    line-height: 1;
 }
 
 /* 
@@ -55,9 +56,25 @@ BLOCO
 .bloco {
     max-width: 940px;
     margin: 0 auto;
-    background-color: yellow;
+    padding: 16px; 
 }
 
+/* 
+GALERIA
+============================= */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: calc(50%-2em);
+}
+
+.responsive-image {
+    width: 100%;
+}
 
 
 
