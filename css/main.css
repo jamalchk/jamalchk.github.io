@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Zilla Slab";
+    background-color: rgb(255, 255, 255);
+}
+
+.title-bg {
+    max-width: 300px;
+    color: rgb(46, 46, 46);
+    margin: 0 auto;
+    padding: 5px 8px;
+    background: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 22px;
+}
+.main {
+    max-width: 700px;
+    padding: 36px;
+    margin: 0 auto;
+}
+
+h2.subtitle {
+    text-align: center;
+    /* padding:4px; */
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 24px;
+}
+
+h3.section-title {
+    margin-bottom: 16px;
+    color: rgb(76, 108, 82);
+    text-align: center;
+}
+
+.em {
+    margin-bottom: 12px;
+}
+
+p {
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/** GALLERY **/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.cell {
+    margin: 0.5rem;
+}
+
+.cell img {
+    display: block;
+}
+
+.responsive-image {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .cell {
+        max-width: 50%;
+        margin: 0.5rem;
+        width: calc(50% - 1rem);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .cell {
+        width: calc(33.3333% - 1rem);
+        margin: 0.5rem;
+    }
+}
+
+.padding {
+    margin: 24px;
+}
