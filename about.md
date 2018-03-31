@@ -1,15 +1,9 @@
 ---
 layout: page
-title: Teste
-permalink: /teste/
+title: Sobre mim
+permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Meu nome é Jamal, tenho 28 anos e sou formado em Design Gráfico e um apaixonado pelo mundo dos games.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Quando eu era pequeno, eu usava Microsoft PowerPoint pra criar pequenos jogos e programas interativos: criava desde cópias do Show do Milhão e outros joguinhos com sistemas básicos de colisão, até mesmo pequenos cursos de digitação pro meu pai. Com o amontoado de tecnologia que temos disponível hoje, pretendo retomar esse meu lado gamer com força total. E este blog será o meu diário de documentação da jornada.
